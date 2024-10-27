@@ -1,0 +1,308 @@
+id,name,nationality,city,age,english.grade,math.grade,sciences.grade,language.grade
+0,Kiana Lor,China,Suzhou,22,3.5,3.7,3.1,1
+1,Joshua Lonaker,United States of America,Santa Clarita,22,2.9,3.2,3.6,5
+2,Dakota Blanco,United States of America,Oakland,22,3.9,3.8,3.2,5
+3,Natasha Yarusso,United States of America,Castro Valley,20,3.3,2.8,3.2,5
+4,Brooke Cazares,Brazil,São José dos Campos,21,3.7,2.6,3.4,1
+5,Rochelle Johnson,United States of America,Indianapolis,21,3.4,3.1,3.7,5
+6,Joey Abreu,China,Shenyang,22,3.7,3.9,3.6,2
+7,Preston Suarez,Brazil,São Paulo,22,3.8,3.7,3.6,2
+8,Lee Dong,Philippines,Manila,24,3.9,3.6,3.2,2
+9,Maa'iz al-Dia,Turkey,Istanbul,22,2.4,2.8,3.8,3
+10,Maja Nicholson,United States of America,Dallas,23,3.4,3.5,3.2,5
+11,Sasha Jansen,United States of America,Chicago,21,1.7,4,3.6,5
+12,Alexander Sherman,United States of America,Omaha,20,3.8,3.6,3.9,5
+13,Edgar Sanchez,Mexico,Tijuana,23,3.7,3.5,4,4
+14,Kolbi Strunk,United States of America,Mission Viejo,21,3.2,3.9,3.3,5
+15,Brittany Sath,Japan,Tokyo,21,4,3.9,3.7,3
+16,Meggan Smith,United States of America,Los Angeles,21,2.9,3.4,3.6,5
+17,Ericka Arreola,Mexico,Mexico,23,3.1,3.5,2.8,4
+18,David Pulc,Canada,Toronto,24,3.9,2.9,4,5
+19,Kyle Luckey,United States of America,Moreno Valley,23,3.7,3.9,3.4,5
+20,Rojesh Her,Japan,Tokyo,22,3.8,3.6,3.6,2
+21,David Weber,China,Peking,20,3.9,3.9,3.9,2
+22,Rachel Jambor,United States of America,Chicago,22,3.6,3.6,3.9,5
+23,Mus'ab al-Moustafa,Pakistan,Rawalpindi,23,3.8,3.9,3.8,2
+24,Sila Nguyen,China,Hebi,23,2.8,3.5,3.5,4
+25,Samantha Hicks,United States of America,Santa Barbara,22,3.7,3.7,3.8,5
+26,Angela Harding,United States of America,Manteca,22,3.1,2.9,3.2,5
+27,Brandon Barbour,United States of America,South Hill,21,3.9,3.7,3.3,5
+28,Reilly Wagar,United States of America,Modesto,23,3.4,3.2,3.7,5
+29,Victoria Ibarra,Dominican Republic,Santo Domingo,22,3.4,3.8,4,4
+30,Dakota Wirth,United States of America,Sacramento,22,3.4,3.9,3.6,5
+31,Lauren Klocker,United States of America,Los Angeles,22,2.3,3.9,3.8,5
+32,Michael Benson,United States of America,Phoenix,21,3.8,3.7,3.7,5
+33,Sean Rozga,United States of America,Los Angeles,21,3.4,3.8,3.6,5
+34,Cody Vermeylen,United States of America,Detroit,23,3.3,3.8,3.5,5
+35,Kinaana al-Jamail,India,Kanpur,22,3.3,3.8,3.7,3
+36,Daniel Garcia,Peru,Lima,22,3.7,3.1,3,3
+37,Katrina Saito,Japan,Tokyo,22,3.8,4,3.7,4
+38,Joshua Galloway,United States of America,New York,24,3.3,3.3,3.6,5
+39,Aylin Mendoza,Mexico,Mexico,22,3,2.3,3.9,4
+40,Sharon Fyfe,United States of America,Los Angeles,22,3.7,3,3.8,5
+41,Afnaan el-Mohammed,India,New Delhi,22,1.7,3.5,3.9,2
+42,Jesse Williams,Russian Federation,Moscow,21,3.9,3.4,2.6,4
+43,Kenny Fukushima,Japan,Tokyo,22,3.9,2.9,3.3,4
+44,Tawnie Glaisher,United States of America,Fremont,24,3.4,3.2,3.8,5
+45,Britany Stevens,United States of America,Lafayette,23,3.6,3.3,3.5,5
+46,Alan Trinh,Japan,Tokyo,20,2.8,3.1,3.8,4
+47,Zoe Kern,United States of America,West Jordan,22,2.1,4,3.4,5
+48,Sidney Beavers,United States of America,Los Angeles,23,2.3,2.8,3.5,5
+49,Miriam Aguilar,Mexico,Mexicali,22,3.6,3.8,2.8,2
+50,Issac Mata,Mexico,Tehuacán,23,2.4,3.1,2.7,1
+51,Hannah Uren,United States of America,Los Angeles,22,3.2,2.2,3.5,5
+52,Zachary Bradley,Spain,Madrid,21,3.5,3.5,3.4,2
+53,Moira Buttitto,United States of America,Los Angeles,23,1.9,2.8,3.2,5
+54,Nicole Humpal,United States of America,Walnut Creek,22,3.9,3.7,4,5
+55,Georgia Williams,United States of America,Memphis,23,2.9,3.6,3.1,5
+56,Connor Ferry,United States of America,Charlotte,23,3.1,3.8,4,5
+57,Amanda Tatum,United States of America,San Diego,22,3.5,2.3,3.7,5
+58,Cameron Steinberg,United States of America,Los Angeles,20,2.1,3.9,3.9,5
+59,Shuraih el-Karim,Pakistan,Khalabat,22,3.1,2.1,2.3,4
+60,Katelyn Sharp,United States of America,Los Angeles,20,3.9,3.7,2.8,5
+61,Colin Lemont,China,Shanghai,21,3.6,4,3.1,4
+62,Donald Nevins,United States of America,San Jose,23,3.6,3.4,2.8,5
+63,Macaela Kadillak,United States of America,Los Angeles,20,2.7,3.3,3.3,5
+64,Brittany Pratt,United States of America,San Diego,22,3,3.1,3.1,5
+65,Cameron Hancock,Poland,Warsaw,21,3.9,3.8,3,3
+66,William Grevious,United States of America,Stockton,22,3.4,3.4,3.1,5
+67,Lindsey Job,United States of America,Los Angeles,23,2.7,3.7,1.8,5
+68,Gabrielle Smith,Korea (Republic of),Seoul,23,4,3,2.8,3
+69,Allison Brink-Lomme,United States of America,Portland,24,2.8,3.6,4,5
+70,Sheyenne Delgado-Manzanares,Cuba,Manzanillo,21,3.9,2.8,3.2,3
+71,Joseph Smith,United States of America,Sacramento,21,3.7,3.7,2.8,5
+72,Fikra al-Mina,India,Bombay,21,3.1,2.4,3.3,3
+73,Aurelia Davis Ingham,United States of America,Roseville,22,3.8,2.2,3.7,5
+74,Taylor Elstun,United States of America,San Diego,21,2.3,3.7,3.6,5
+75,Joseph Snider,United States of America,Los Angeles,21,3.2,2.6,3,5
+76,Sourinthone Tran,China,Wuhan,21,3.5,3.9,3.4,4
+77,Ibrahim al-Sawaya,Tunisia,Manzil Tamim,23,3.5,3.1,4,4
+78,Alexandra Levy,United States of America,Los Angeles,23,3.1,2.5,3.7,5
+79,Macie Nguyen,Japan,Tokyo,23,3.1,3.8,3.8,4
+80,Sean Tegtman,United States of America,Kettering,25,3.7,3.8,3.8,5
+81,Casey Vanden Bos,United States of America,Los Angeles,22,2.7,2.6,3.3,5
+82,Staci Maes,Mexico,Mexico,23,3.4,2.6,3.9,2
+83,Luke Davey,United States of America,Los Angeles,26,3.8,3.4,3.7,5
+84,Harper Wheeler-Marques,United States of America,San Diego,23,3.9,2.4,3.9,5
+85,Sherleen Saravanan,Myanmar,Rangoon,22,3.1,3.4,3.7,3
+86,Myles Vaught,United States of America,Waukegan,21,3.4,3.8,3.9,5
+87,Juan Guerrero Camacho,Mexico,Mexico,21,2.8,3.7,3.5,2
+88,Lindsey Freund,United States of America,New York,20,3.3,2.3,3.9,5
+89,Savannah Clark,United States of America,Visalia,20,2.8,3.5,2.6,5
+90,Bradley Monsell,United States of America,New York,22,3,3.9,3.1,5
+91,Daisha Schmidt,United States of America,Boulder,22,3.7,3.9,4,5
+92,Airabella Koontz,United States of America,Dallas,22,2.7,3.3,3.4,5
+93,Hailey Malle,Russian Federation,Nizhniy Novgorod,22,3.7,2.5,3.2,2
+94,Devon Miranda,Colombia,Pereira,20,3.7,3.7,3.8,1
+95,Danielle Nguyen,Japan,Tokyo,23,3.3,3.5,3.6,3
+96,Mateo Cisneros,Brazil,Foz do Iguaçu,23,3,3.4,2.9,4
+97,William Pablo,Japan,Kashiwara,24,2.9,3.3,3.1,4
+98,Jason Hundsdorfer,United States of America,Los Angeles,20,3.9,3.9,4,5
+99,Antonio Desai,Japan,Kawasaki,22,2.2,3.9,3.9,3
+100,Rachel Bakeman,United States of America,Phoenix,24,3.9,3.7,3.8,5
+101,Mamdooh el-Moustafa,Pakistan,Karachi,22,3.3,2.8,3.9,4
+102,Lindsey Carter,United States of America,Redwood City,24,3.2,3.9,3.9,5
+103,Duncan Kruse,United States of America,Santa Ana,23,3.7,3.8,3.7,5
+104,Callahan Foster,Canada,Toronto,22,3.2,3,3.9,5
+105,Jamie Ortiz,El Salvador,Nueva San Salvador,23,3.3,2.9,3.5,3
+106,Ryan Barrett,United States of America,Chicago,20,3.7,3.2,4,5
+107,Samuel Palmer,United States of America,New York,22,3.9,3.3,3.3,5
+108,Riley Mcloughlin,United States of America,Los Angeles,23,3.6,3.6,3.3,5
+109,Aimee Apelyan,United States of America,Joliet,24,3.3,3.8,3.8,5
+110,Maryah Falloon,United States of America,Phoenix,23,3.9,3.7,3.9,5
+111,Lucille Mitchell,Canada,Edmonton,22,3.5,3.6,2.6,5
+112,Christian Zambrano-Munoz,Mexico,Mexicali,23,3.1,3.9,3.6,4
+113,Bryce Vaillancourt,United States of America,Pomona,22,3.7,3.8,2.1,5
+114,Brandilyn Collins,United States of America,Los Angeles,21,3.6,3,3.3,5
+115,Konner Gearhart,United States of America,New York,22,3.9,3.7,3.3,5
+116,Andrew Houghton,United States of America,Spokane,22,3.2,3.2,3.8,5
+117,Marisa Ramey,Mexico,Mexico,22,3.2,4,3.8,4
+118,Magdalynne Noah,United States of America,New York,22,3.2,3.8,3.8,5
+119,Megan Salamena,United States of America,Los Angeles,23,3.9,3.9,3.1,5
+120,Meghan Arnold,Russian Federation,Saint Petersburg,24,4,3.9,3.3,3
+121,James Rice,Canada,Toronto,20,3.9,2.4,3.6,5
+122,Wesley Nunn,United States of America,Los Angeles,23,3.9,4,2.1,5
+123,Gareth Newkirk,United States of America,Los Angeles,21,4,3.2,3.9,5
+124,Austin Harline,United States of America,Las Vegas,21,2.8,3.8,3.8,5
+125,Courtney Martinez,Mexico,Aguascalientes,20,3.7,3.7,3.7,3
+126,Alexandra Graham,United States of America,Los Angeles,22,3.4,3.5,2.8,5
+127,Alexander Swearingen,United States of America,Los Angeles,22,3.9,2.8,4,5
+128,Brandy Waldner,Germany,Zülpich,20,3.2,3.5,3.9,3
+129,Coleman Keelen,Spain,Callosa de Segura,24,3.4,4,3.4,4
+130,Casey Buhr,United States of America,Phoenix,21,3.7,3.2,2.5,5
+131,Shauna Sneed,United States of America,Burlingame,19,2.7,3.7,3.7,5
+132,Caitlin Dean,United States of America,Philadelphia,22,3.9,3.7,3.1,5
+133,Andrew Kirin,United States of America,Odessa,25,3.8,2.2,3,5
+134,Nadia Minks,Russian Federation,Moscow,24,3.8,3.1,3.5,4
+135,Ivy Lucero,Brazil,São Paulo,24,3.9,3.6,3.2,3
+136,Kevin Curry,United States of America,Phoenix,23,3.9,3,3.7,5
+137,Charles Cramer,United States of America,East Los Angeles,23,3.1,3.5,3.8,5
+138,Emily Warner,United States of America,Lodi,21,3.5,3.2,3.9,5
+139,Mckenzie Haycock,Canada,Toronto,20,3.8,2.3,3.7,5
+140,Faviola Soto,Mexico,Cortazar,19,4,3.8,3.9,3.7
+141,Stephen Wharton,Mexico,Tuxtla Gutiérrez,21,2.1,3.7,3.8,4
+142,Alexandria Fortner,United States of America,Phoenix,20,3.9,3.8,3.8,5
+143,Savannah Kivett,United States of America,Colorado Springs,21,3.8,3.9,3.8,5
+144,Tanner Jones,United States of America,Stockton,23,3.9,3.7,3.7,5
+145,Luisa Bautista,Mexico,Mexico,21,3.3,3,3.4,3
+146,Juhaina al-Bilal,Bangladesh,Dhaka,20,3.9,3.9,3.9,5
+147,Siena Ingram,United States of America,Henderson,21,3.8,3.7,3.8,5
+148,Alondra Gardea Corral,Mexico,Ensenada,20,2.2,3.8,3.1,2
+149,Vincent Webster,United States of America,New York,23,2,3.7,3.4,5
+150,Abdul Jabbaar el-Abdul,Egypt,Cairo,20,1.5,3.5,3.2,3
+151,Patrick Carnes,United States of America,Mesa,22,2.4,3.5,3.6,5
+152,Shawn O Bryan,United States of America,Fairfield,23,2.9,3.7,1.5,5
+153,Jenna Whitney,United States of America,San Diego,23,3.7,2.9,3.9,5
+154,Kaitlin Krueger,United States of America,Los Angeles,24,3.7,3.9,4,5
+155,Jaime Mikesell,United States of America,Los Angeles,20,3.9,3.7,3.7,5
+156,Katelynn Andrie,United States of America,Kansas City,23,3,3.9,3.9,5
+157,Maryn Manzanares,United States of America,Laguna Hills,21,3.9,3.2,3.2,5
+158,Colleen Kohout,United States of America,Philadelphia,22,3.5,3.8,3.1,5
+159,Daniel Spurlin,United States of America,San Jose,24,3.9,3.9,3.7,5
+160,Trevor Bulba,United States of America,Chicago,21,3.9,3.8,3.8,5
+161,Jordan Burkhamer,United States of America,San Jose,23,3,3.9,3.7,5
+162,Rebecca Ah Fat,China,Tangshan,22,1.8,3.8,4,4
+163,Christopher Jacobo,United States of America,Los Angeles,21,3.4,2.7,3.9,5
+164,Min Singal,Japan,Tokyo,24,3.8,2.9,2.9,4
+165,Corey Rademacher,Ukraine,Chernihiv,22,3.1,3.3,3.9,3
+166,Alexander Reed,United States of America,Los Angeles,22,3,2.7,3.8,5
+167,Dalen Whiting,United States of America,Carrollton,23,2.8,3.9,3.3,5
+168,Chelsea Persky,United States of America,San Bernardino,23,3.9,3.4,4,5
+169,Karla Taylor,Mexico,Mexico,21,3.7,3,3.7,4
+170,Kaden Yates,United States of America,Salinas,23,3.6,3.4,4,5
+171,Maimoona el-Soliman,Turkey,Ankara,21,2.8,2.6,3.9,3
+172,Aaqil el-Hashemi,India,Bangalore,21,3.4,3,3.6,3
+173,Sean Bruso,United Kingdom,London,19,3.2,3.7,3.9,5
+174,Andrew Bishop,United States of America,Los Angeles,22,4,3.7,3.8,5
+175,Zahraaa el-Yousef,India,Hospet,22,3.9,3.7,3.8,4
+176,Surya Ky,China,Tangshan,21,3.7,4,3.8,4
+177,George Mann,Russian Federation,Moscow,23,3.9,3.9,4,4
+178,Latino Calderon,Mexico,Hermosillo,23,3.6,3,3,3
+179,Baylen Cloutier,United States of America,Phoenix,22,3.9,3.4,3.7,5
+180,Nicole Torres-Valadez,Brazil,Rio de Janeiro,24,3.9,3.1,3,1
+181,Addie Villavicencio,United States of America,San Jose,20,4,3.5,3.2,5
+182,Billy Jack Bestle,United States of America,Baltimore,22,3.7,4,3.8,5
+183,Isabella Martinez,Colombia,Bogotá,23,2.6,4,2.7,4
+184,Kimberly Thielke,United States of America,Los Angeles,21,3.8,3.9,3.3,5
+185,Adrian Miguel-Gomez,Colombia,Medellín,22,3.7,3.3,2.2,4
+186,Kayla Sales,United States of America,Quincy,22,2.1,3.1,4,5
+187,Haafiza al-Attar,Morocco,Rabat,21,2.4,3.6,3.8,3
+188,Juanita Medina,Mexico,Mexico,22,3.8,3.9,3.7,4
+189,Emma Kim,China,Hengshui,22,2.8,3.9,3.8,2
+190,Mckayla Dopler,Netherlands,Kerkrade,21,2.5,3.5,3.7,4
+191,Jonathan Nevarez,Mexico,Mexico,23,2.7,2.6,3.6,5
+192,Roger Redfern,United States of America,Los Angeles,21,3.9,3.9,3.1,5
+193,Hannah Critchfield,United States of America,New York,21,3.5,3.3,3.6,5
+194,Chue Fue Richter,China,Qiqihar,23,3,3.6,1.4,4
+195,Joshua Mesan,United States of America,San Jose,24,4,3.8,3.7,5
+196,Dylan Bell,United States of America,Tucson,20,3.3,3.8,3.5,5
+197,Troy White,United States of America,New York,22,4,3.6,3.4,5
+198,Sabaaha al-Latif,India,Bangalore,22,3.7,2.7,3,3
+199,Grant Walden,United States of America,San Diego,22,3.8,3.3,3.3,5
+200,Kitty Nguyen,Japan,Tokyo,25,3.4,3.2,2.9,4
+201,Tyler Kibel,United States of America,Santa Ana,24,4,3.2,3.8,5
+202,Kyler Overboe,United States of America,Chicago,21,3.2,4,3.5,5
+203,Alexander Lizama,Brazil,Belo Horizonte,21,3.9,3.7,3.9,3
+204,Aaron Knott,United States of America,Santa Ana,23,3.2,3.6,3.7,5
+205,Jessica Greenberg,United States of America,Joplin,23,3.6,3.7,2.8,5
+206,Lexi Hatton,United States of America,Los Angeles,23,3.3,2.7,4,5
+207,Jesse Hodapp,United States of America,Danville,21,3.8,3,3.5,5
+208,Andrew Brunelli,United States of America,New York,23,3.4,3.8,4,5
+209,Makenzie Swann,United States of America,Stockton,22,3.4,2.8,3.1,5
+210,Carlos Anaya,Mexico,Mexico,24,3.7,3.7,3.7,4
+211,Felipe Martinez Acosta,Chile,Santiago,21,3.7,3.7,4,3
+212,Emma Casias,United States of America,Rochester,22,3.2,3.7,3.2,5
+213,Adolf Malik,Korea (Republic of),Seoul,21,3.1,3.5,3.6,3
+214,Christian Chow,China,Handan,21,2.6,3.9,3.4,4
+215,Asad el-Yacoub,India,Thana,22,2.6,3.3,4,3
+216,Holly Marshall,United States of America,San Francisco,22,3,2.7,2,5
+217,Brandilyn Hanselman,Russian Federation,Chelyabinsk,21,2,3.5,2.2,4
+218,Nicole Patria,China,Chongqing,24,3.9,3.3,3,2
+219,Kyler Grieshaber,United States of America,Cohoes,22,3.6,3.4,4,5
+220,Jasper Stang,United States of America,Sacramento,24,3.6,3.9,3.3,5
+221,Anthony Visocsky,United States of America,Santa Rosa,21,3.4,2.4,4,5
+222,Jake Seime,United States of America,Reno,22,2.4,3.9,3.7,5
+223,Dasha Bannock Lee,United States of America,San Diego,20,2.8,3.3,4,5
+224,Anthony Mcdevitt,United States of America,Los Angeles,24,3.1,4,3.9,5
+225,Darby Focken,United States of America,Hinsdale,21,3.5,2.5,3.7,5
+226,Abigail Gallegos,Brazil,Belém,24,3.4,3,2.1,4
+227,Patricia Rockhold,United States of America,San Francisco,21,4,3.5,3.4,5
+228,Kylie Schafer,United States of America,Houston,22,3.1,3,3.3,5
+229,Katherine Beatty,United States of America,Los Angeles,19,4,2.4,3.9,5
+230,Melissa Bickel,United Kingdom,London,22,3.6,2.6,2.5,5
+231,Rachel Boh,United States of America,Roseville,22,3.8,3.9,2.9,5
+232,Anna Yoshimura,China,Rizhao,20,3.5,3.8,3.9,4
+233,Joseph Hazelton,United States of America,Oakland,22,3.5,4,3.9,5
+234,Tiffany Nguyen,Thailand,Bangkok,22,3.3,3.9,3.9,2
+235,Ryan Tyler,United States of America,Los Angeles,20,3.7,3.5,3.5,5
+236,Max Flores,Mexico,Tijuana,23,3.9,2.8,2.5,4
+237,Veronica Tounzen,Mexico,Tijuana,21,3.8,3.5,3.5,4
+238,Haley Ingrim-Hyrup,United States of America,Fontana,22,3.2,3.6,2.6,5
+239,Kayla Sandefur,United States of America,Los Angeles,23,3.5,3.1,3.5,5
+240,Rylee Onstott,United States of America,Los Angeles,21,4,3.8,3.8,5
+241,Kelli De Bartolome,United States of America,San Francisco,23,3.4,3.4,3.5,5
+242,Thomas Chanlynn,United States of America,Bay Point,22,2.4,3,3.8,5
+243,Andrew Yelich,United States of America,Boulder,24,2,3.9,3.3,5
+244,Dimitri Castillo,Colombia,Dos Quebradas,21,3.9,3,3.8,3
+245,Matthew Strasburger,United States of America,Los Angeles,21,3.9,3.9,2.9,5
+246,Vittoria Faulkner,United States of America,Chicago,22,4,3.6,2.5,5
+247,Tyler Goetz,United States of America,Los Angeles,22,3.7,3.5,2.8,5
+248,Tyler Weller,United States of America,New York,22,3.7,3.2,3.1,5
+249,Terri Mergelman,United States of America,Los Angeles,23,2.7,3.9,3,5
+250,Abigail Orgeron,United States of America,Prior Lake,23,3.2,3,3.8,5
+251,Jessica Huynh,Korea (Republic of),Seoul,22,3.5,2.7,3.2,2
+252,Kyle Blanscet,United States of America,Sabattus,23,3.8,3.5,3.7,5
+253,Ronald Toth,United States of America,Los Angeles,23,2.7,3.5,3.7,5
+254,Branden Cantrell,United States of America,Phoenix,23,2.7,4,3.9,5
+255,Hannah Ratterman,United States of America,Los Angeles,23,3.5,3.4,3.7,5
+256,Alexandria Winter,United States of America,New York,24,3.8,3.8,2.2,5
+257,Ryan Russell,United States of America,Vacaville,22,3,3.4,3.7,5
+258,Logan Nighswonger,United States of America,Los Angeles,21,2.7,4,3.9,5
+259,Zaghlool al-Pasha,India,Deoria,21,2.3,3.8,3.8,4
+260,Madeline Kremke,United States of America,Montgomery Village,22,3.2,3.6,2.6,5
+261,John Ferry,United States of America,Long Beach,21,3.8,2.4,3.8,5
+262,Michelle Goldanloo,United States of America,San Diego,22,3.3,2.8,3.9,5
+263,Ryan Heidebrecht,United States of America,San Jose,22,3.9,3.7,3.8,5
+264,Murtidevi Chung,Japan,Tokyo,21,2.9,3.9,3.5,2
+265,Arely Rodriguez,Mexico,Morelia,21,3.9,3.5,3.6,4
+266,Taylor Stone,United States of America,Reno,22,3,3,3.5,5
+267,Melody Bowyer,United States of America,Baytown,21,3.2,3.5,3.3,5
+268,Bryant Ronquillo,Mexico,Aguascalientes,20,4,3.2,3.5,4
+269,Garrett Heim,United States of America,Mobile,20,4,3.2,3.1,5
+270,Cody Amen,United States of America,Las Vegas,23,3.6,3.9,3.7,5
+271,Jasmine Lopez,Brazil,Guaxupé,21,3.8,3.8,1.5,4
+272,William Tierney,United States of America,New York,21,3.8,2.1,3,5
+273,Matthew Sputh,United States of America,Modesto,22,3.2,2.6,4,5
+274,Brenna Chapman,United States of America,Las Vegas,21,3.5,3.8,3.3,5
+275,Blake Loughran,United States of America,San Francisco,21,4,3,3.4,5
+276,Michael Melendrez,United States of America,Shreveport,22,3.4,3.8,3.2,5
+277,Katie Abercrombie,United States of America,Stockton,21,3.8,3.8,3.6,5
+278,Justin Krause,United States of America,Independence,21,3.9,2.6,2.8,5
+279,Jennifer Hauge,United States of America,Los Angeles,23,2.6,3,2.3,5
+280,Tiffanie Her,Japan,Tokyo,22,3.4,4,3.6,3
+281,Dyllan Paige,United States of America,Sugar Land,20,2.9,3.1,2.6,5
+282,Cole Hathcoat,United States of America,Lemoore,23,2.4,3.6,2.8,5
+283,Jesse Carballo,Colombia,Bogotá,20,3.8,3.9,3.9,4
+284,Robert Podolski,United States of America,Oakland,22,3.7,3.3,2.4,5
+285,Viridiana Ballesteros,Brazil,Alfenas,22,2.8,3.5,3.9,4
+286,Michael Griffin,United States of America,New York,21,4,4,4,5
+287,Chad Klemp,United States of America,San Diego,22,3.9,2.6,4,5
+288,Weldon Hightower,United States of America,New York,20,2.6,2.1,3.2,5
+289,Daniel Pierce,United States of America,New York,24,3.3,2.8,3.9,5
+290,Michaela Schoenbeck,United States of America,Rexburg,22,3.9,4,3.3,5
+291,Charles Prose,United States of America,Miami,24,3.7,3.2,2.8,5
+292,Brittany Kemmerzell,United States of America,New York,23,3.2,3.4,3.7,5
+293,Taryn Springfield,Canada,Vancouver,20,3.5,3.7,3.4,5
+294,Matthew Obourn,United States of America,San Diego,23,3.9,4,3.9,5
+295,Travis Poss,United States of America,Los Angeles,23,2.3,3,3.5,5
+296,Brittany Fernandez,Mexico,Zamora,23,3.9,3.7,2.9,4
+297,Cody Smith,United States of America,Charlotte,23,3.8,3.5,3.9,5
+298,Nicolas Papp,United States of America,New York,23,2.7,3.7,3.9,5
+299,Christopher Inhulsen,United States of America,Fort Worth,23,3.1,3.3,2.9,5
+300,Tessa Rawanduzy,United States of America,Derby,21,3.3,3.3,2,5
+301,Vanessa Gonzalez,Nicaragua,León,24,3.3,3.7,3.8,3
+302,Austin Haas,United States of America,Columbus,20,3.6,3.7,3.1,5
+303,Madison Fithian,United States of America,Los Angeles,20,3.6,3.9,4,5
+304,Zachary Mulvahill,United States of America,Los Angeles,20,3.2,3.4,3.9,5
+305,Eliana Michelsen,United States of America,Oakland,23,3,2.8,2.9,5
+306,Dane Whittemore,Canada,Toronto,21,3.8,3.2,4,5
