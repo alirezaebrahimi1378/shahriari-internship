@@ -87,7 +87,7 @@ The **Sort** class is designed to handle sorting and displaying student score da
 2. **get_sorted_data**
 
     - **parameters**:
-        - `self`: Refers to the instance of the class this method belongs to.
+        - `self`: Refers to the instance of the class this method belongs to
 
     - **How the function works**:
 
