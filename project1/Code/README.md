@@ -133,8 +133,7 @@ The **Sort** class is designed to handle sorting and displaying student score da
 
 To run the code:
 - Make sure to provide the correct path as the filepath.
-- utils.py: Contains helper functions and classes (read_csv, Score, Sort) that are used to process the data.
-- main.py: This is the main script where you run the code.
+
 
 
         
