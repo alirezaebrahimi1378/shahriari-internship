@@ -32,16 +32,13 @@ class Score:
     '''
     a class that calculate average of grade and sorting data based on average and ...
     '''
-    def __init__(self, score):
-        self.score = score
-
-    # calculate the average score
-    def average(self):
+    def average(self, score):
         '''
         this method get the list of data and calculate the average for each person
 
         Returns: the new list that include average.
         '''
+        self.score = score
         try:
             for row in range(len(self.score)):
                 mean = sum(self.score[row][5:]) / len(self.score[row][5:])
@@ -53,28 +50,28 @@ class Score:
             return 0
     
     # show name, country, age and average
-    def information(self):
+    def information(self, data):
         '''
         this method give the list and create dictionary based on average
 
         Returns: the dictionary with key of average and value of that is a list 
         include name, country, age of each person.
         '''
-        data = self.average()
+        self.data = data
         dic = {}
-        for i in range(len(data)):
-            key = data[i][-1]
-            dic[key] = [data[i][1], data[i][2], data[i][4]]
+        for i in range(len(self.data)):
+            key = self.data[i][-1]
+            dic[key] = [self.data[i][1], self.data[i][2], self.data[i][4]]
         return dic
       
-    # # create tuple (name, average)
-    def get_sorted_data(self):
+    # # # create tuple (name, average)
+    def get_sorted_data(self, data):
         '''
         this method sort data based the average
 
         Returns: a list of sorted data that argument1 is name and argument2 is the average
         '''
-        self.data = self.average()
+        self.data = data
         data2 = []
         for item in range(len(self.data)):
             data2.append((self.data[item][1], self.data[item][-1]))
@@ -82,35 +79,35 @@ class Score:
         data2.sort(key=lambda x: x[1])
         return data2
     
-    # print Top 3 of the list
-    def Top_three(self):
+    # # print Top 3 of the list
+    def Top_three(self,data):
         '''
         this method get the sorted data and print top three averages with name
 
         '''
-        sorted_data = self.get_sorted_data()
+        self.data = data
         print("Top 3 Entries: ")
-        for name , score in sorted_data[-3:]:
+        for name , score in self.data[-3:]:
             print(f"Name: {name}, score: {score}")
 
-    # # print last 3 student
-    def last_three(self):
+    # # # print last 3 student
+    def last_three(self, data):
         '''
         this method get the sorted data and print the lowest three averages without name
         '''
-        sorted_data = self.get_sorted_data()
+        self.data= data
         print("The three lowest averages")
-        for item in sorted_data[:3]:
+        for item in self.data[:3]:
             print(item[1])
 
-    def average_grades(self):
+    def average_grades(self, data):
         '''
         this method calculate the average of list
 
         Returns: the average of whole class
         '''
-        data = self.get_sorted_data()
-        average = sum([row[1] for row in data])/ len(data)
+        self.data = data
+        average = sum([row[1] for row in self.data])/ len(self.data)
         print(f"the average of grades is {round(average, 2)}")
         
 
@@ -125,21 +122,22 @@ relative_filepath = os.path.join(current_directory, "..", "data", "student-datas
 data = read_csv(relative_filepath)
 
 # calculate average
-average_score = Score(data)
+average_score = Score()
+total_data = average_score.average(data)
 
 # # sorting data based on average
-sorter_score = average_score.get_sorted_data()
+sorter_score = average_score.get_sorted_data(total_data)
 print(sorter_score)
 
-# # # print the top_three
-average_score.Top_three()
+# # # # print the top_three
+average_score.Top_three(sorter_score)
 
-# # # print The three lowest averages
-average_score.last_three()
+# # # # print The three lowest averages
+average_score.last_three(sorter_score)
 
-# # # print the average of grade
-average_score.average_grades()
+# # # # print the average of grade
+average_score.average_grades(sorter_score)
 
-# # for the last part
-last_part = average_score.information()
+# # # # for the last part
+last_part = average_score.information(total_data)
 print(last_part)
