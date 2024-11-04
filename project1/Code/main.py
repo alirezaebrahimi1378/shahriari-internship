@@ -39,7 +39,7 @@ class Dataset:
             print("there is no lesson ")
             return 0
     
-    # show name, country, age and average
+    # show name, nationality, age based on average
     def information(self):
         dic = {}
         for i in range(len(self.data)):
