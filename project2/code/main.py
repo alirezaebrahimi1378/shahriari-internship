@@ -12,6 +12,8 @@ from sklearn.metrics import accuracy_score
 import seaborn as sns
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import GridSearchCV 
+import time
+import matplotlib.patches as mpatches
 
 """
 This script performs classification on Sentinel-2 satellite imagery between 2020 and 2021, using ground truth data from ESA.
@@ -92,6 +94,7 @@ class process:
             w = np.shape(self.dictionary[item])[1]
             d = np.shape(self.dictionary[item])[2]
             self.dictionary[item] = self.dictionary[item].reshape(h*w,d)
+        
         return self.dictionary
 
     # search for nan value in each data
@@ -139,7 +142,7 @@ class process:
         plt.xlabel('IDE')
         plt.ylabel('variance')
         plt.text(0,0, f"IDE = {self.ide} ", fontsize=10, color='red')
-        # plt.show()
+        plt.show()
         return self.ide
     
     # apply pca on sentinel data that number of components = ide and save it to dictionary
@@ -151,6 +154,7 @@ class process:
 
     # create svc model for classification of imbalance data
     def svc(self):
+        start_time = time.time()
         # flattening the groundtruth
         GT_1 = np.ravel(self.dictionary[self.keys[0]])
         GT_2 = np.ravel(self.dictionary[self.keys[1]])
@@ -167,7 +171,7 @@ class process:
         # best_param = model.best_params_
         # c = best_param['C']
         # g = best_param['gamma']
-        c = 2
+        c = 1
         g =0.5
 
         # tune the model by best parameter
@@ -201,6 +205,9 @@ class process:
         plt.show()
 
         self.predict_svc = data_predict
+        endtime = time.time()
+        elapsed_time = endtime - start_time
+        print(f'time taken for svc:{elapsed_time:.2f}')
         return self.predict_svc
 
     # create KNN model for calssification
@@ -210,7 +217,7 @@ class process:
         GT_1 = np.ravel(self.dictionary[self.keys[0]])
         GT_2 = np.ravel(self.dictionary[self.keys[1]])
 
-        knn = KNeighborsClassifier(n_neighbors=k , metric = 'euclidean' , weights="distance")
+        knn = KNeighborsClassifier(n_neighbors=k , metric = 'euclidean' )
         # train model by GT_1
         model = knn.fit(self.dictionary[self.keys[2]],GT_1)
         # predict the calss of sentinel-2part2 
@@ -226,7 +233,7 @@ class process:
         print(f"the train accuracy of classification by KNN = {accuracy_train *100:.2f}")
 
         # compute confusion matrix for validation data
-        cm = confusion_matrix(GT_2, data_predict)
+        cm = confusion_matrix(GT_2, data_predict,normalize='true')
 
         # # show confusion matrix of validation data
         f3 = plt.figure('figure3')
@@ -252,10 +259,10 @@ class process:
         result_data = {}
         # reshape groundtruth and predicted data for displaying
         GrTruthound = self.dictionary[self.keys[1]]
-        GT = GrTruthound.reshape(self.h,self.w)
-        knn_predict = self.predict_knn.reshape(self.h,self.w)
-        svc_predict = self.predict_svc.reshape(self.h,self.w)
-        sentinel2 = self.dictionary[self.keys[3]].reshape(self.h,self.w,self.ide)
+        GT = GrTruthound.reshape(self.w,self.h)
+        knn_predict = self.predict_knn.reshape(self.w,self.h)
+        svc_predict = self.predict_svc.reshape(self.w,self.h)
+        sentinel2 = self.dictionary[self.keys[3]].reshape(self.w,self.h,self.ide)
 
         result_data['GT'] = GT
         result_data['KNN'] = knn_predict
@@ -264,19 +271,22 @@ class process:
         label_title = list(result_data.keys())
 
         for i in range(4):
+            plt.subplot(2,2,i+1)
+            plt.axis('off')
             if i == 3:
-                plt.subplot(2,2,4)
                 data_rgb = sentinel2[:,:,[0,1,2]]
                 data_rgb = (data_rgb - data_rgb.min()) / (data_rgb.max() - data_rgb.min())
                 plt.imshow(data_rgb)
                 plt.title(label_title[3])
             
             else:
-                plt.subplot(2,2,i+1)
-                plt.imshow(result_data[label_title[i]])
+                im = plt.imshow(result_data[label_title[i]],cmap="gist_ncar")
+                values = np.unique(result_data[label_title[i]])
+                colors = [ im.cmap(im.norm(value)) for value in values]
+                patches = [ mpatches.Patch(color=colors[i], label=self.label[values[i]] ) for i in range(len(values)) ]
                 plt.title(label_title[i])
-                plt.legend(self.labels, loc="upper left")
-            plt.show()
+                plt.legend(handles=patches, bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0. )
+        plt.show()
 
     # write main method for calling othe method of class
     def main(self) -> dict:
