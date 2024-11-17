@@ -161,18 +161,17 @@ class process:
         
         # use gridsearch for finding best parameters
 
-        # c_g = np.logspace(-2,2,num = 4, base =2)
-        # param_grid = {'C':c_g, 'gamma':c_g, 'kernel':['rbf']}
-        # svc = GridSearchCV(svm.SVC(), param_grid, refit = True, verbose = 3, cv =2)
-        # # train model by GT_1
-        # model = svc.fit(self.dictionary[self.keys[2]],GT_1)
+        c_g = np.logspace(-2,2,num = 4, base =2)
+        param_grid = {'C':c_g, 'gamma':c_g, 'kernel':['rbf']}
+        svc = GridSearchCV(svm.SVC(), param_grid, refit = True, verbose = 3, cv =2)
+        # train model by GT_1
+        model = svc.fit(self.dictionary[self.keys[2]],GT_1)
 
-        # # find best parameter
-        # best_param = model.best_params_
-        # c = best_param['C']
-        # g = best_param['gamma']
-        c = 1
-        g =0.5
+        # find best parameter
+        best_param = model.best_params_
+        c = best_param['C']
+        g = best_param['gamma']
+  
 
         # tune the model by best parameter
         svc = svm.SVC(kernel='rbf', C=c, gamma=g)
